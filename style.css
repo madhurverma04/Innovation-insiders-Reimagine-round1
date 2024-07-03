@@ -886,3 +886,232 @@ a:hover #line1{
 .end h4:hover{
     opacity: .6;
 }
+
+
+@media (max-width:600px) {
+    .loading>h1{
+        font-size: 30px;
+    }
+    .loading .container{
+        background-color: black;
+    }
+    .navBar{
+        height: 10vh;
+    }
+   .navBar-1 h4{
+     display: none;
+   } 
+   .navBar img{
+    height: 35px;
+   }
+   .navBar-2>i{
+    display: none !important;
+   }
+   .navBar-2>input{
+    display: none !important;
+   }
+   .navBar-2-Shopping i{
+    pointer-events: none;
+    font-size: 20px !important;
+   }
+   .navBar-2-Shopping h5{
+    font-size: 8px;
+   }
+   .cart{
+    display: none !important;
+   }
+   .navBar>i{
+    margin-left: 150px;
+    display: block;
+    font-size: 20px;
+    }
+    .cursor{
+        display: none;
+    }
+/* >>>>>page1>>>>>>>>>>>>> */
+    .page1 .text-1 h4{
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    .page1 .text-2 h1{
+        font-size: 25px;
+    }
+    .page1>h5{
+        font-size: 6px;
+    }
+    .page1 .text-container{
+        height: 20px;
+        margin-top: 20px;
+        width: 200px;
+        /* background-color: rebeccapurple; */
+    }
+    .page1{
+        height: 300px;
+        margin-bottom: -140px;
+    }
+    .page1 .text-container h5,h6{
+       font-size: 8px;
+    }
+    .page1 .swiper{
+        height: 220px;
+        width: 100%;
+        position: relative;
+    }
+    .page1 .swiper .circle{
+        display: none;
+    }
+    .page1 .swiper-slide{
+        height: 220px;
+        background-color: #fff;
+    }
+    .page1 .swiper-button-prev,.swiper-button-next{
+        display: none;
+    }
+    .swiper-slide .shoes-image{
+        height:150px;
+        width: 100px;
+        margin-bottom: 2vw;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .swiper-slide .shoes-image img {
+        width: 100%;
+        height: 100%;
+        /* top: -20px; */
+        left: 0;
+        /* scale:1.2; */
+        position: absolute;
+        transition: all ease 0.5s;
+        object-fit: cover;
+    }
+    .swiper-slide h5{
+        /* font-family: Gilroy Medium; */
+        color: rgb(56, 56, 56);
+        display: none;
+    }
+    .swiper-slide button{
+        font-size: 10px;
+        padding: 2px 35px;
+        /* display: none !important; */
+    }
+    .swiper-slide .details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .swiper-slide h4{
+        font-size: 10px !important;
+        /* font-family: Gilroy Medium; */
+        margin-top: 1vw;
+    }
+    .swiper-slide h3{
+       font-size: 8px;
+    }
+    /* >>>>>>>page2>>>>>>> */
+    .page2{
+        height: 970px;
+    }
+    .page2 .text-animation-page2{
+        height: 100px;
+        width: 200px;
+    }
+    .page2 .text-animation-page2 h1{
+        font-size: 10px;
+    }
+    .page2 .text-animation-page2 h2{
+        font-size: 10px;
+    }
+    .page2 .container{
+        margin-top: -60px;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+    }
+    .page2 .container .box{
+        height: 300px;
+        width: 100%;
+    }
+    .page2 .container .box h5{
+        text-align: center;
+        font-size: 15px;
+    }
+    .page2 .container .box h6{
+        text-align: center;
+        font-size: 8px;
+    }
+    .page2 .container .box .image{
+        overflow: hidden;
+        height:250px;
+        width:100%;
+        position: relative;
+    }
+    .page2 .container .box .image img{
+        height: 100%;
+        width: 100%;
+        object-fit:contain;
+        top: 40px;
+        position: absolute;
+        scale: 1.1;
+    }
+    /* >>>>>>>>>>>>>>>>>>>>>>>>page3>>>>>>>>>>> */
+    .page3 h1{
+        font-size: 20px;
+    }
+    .page3 .container .box{
+        height: 220px;
+        width: 150px;
+    }
+    .page3 .container .box .picture{
+        height: 150px;
+    }
+    .page3 .container .box .details h3{
+        font-size: 10px;
+    }
+    .page3 .container .box .details h4{
+        font-size: 8px;
+    }
+    .page3 .container .box .details h5{
+        font-size: 8px;
+    }
+    .page3 .container .box button{
+        padding: 2px 57px;
+        font-size: 10px;
+    }
+    .page3 .container .box:nth-child(9){
+        display: none;
+    }
+    .page4 .text-container h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .page4 .container .box{
+        height: 220px;
+        width: 150px;
+    }
+    .page4 .container .box .picture{
+        height: 150px;
+    }
+    .page4 .container .box .details h3{
+        font-size: 10px;
+    }
+    .page4 .container .box .details h4{
+        font-size: 8px;
+    }
+    .page4 .container .box .details h5{
+        font-size: 8px;
+    }
+    .page4 .container .box button{
+        padding: 2px 57px;
+        font-size: 10px;
+    }
+    .page4 .container .box:nth-child(9){
+        display: none;
+    }
+    #back{
+        display: none;
+    }
+}
